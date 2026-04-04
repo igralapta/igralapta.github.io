@@ -39,12 +39,12 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 24
+          node-version: 22
           cache: npm # или pnpm / yarn
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
-        run: npm install # или pnpm install / yarn install / bun install
+        run: npm ci # или pnpm install / yarn install / bun install
       - name: Build with VitePress
         run: |
           npm run build # или pnpm docs:build / yarn docs:build / bun run docs:build

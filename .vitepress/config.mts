@@ -5,7 +5,6 @@ export default defineConfig({
   title: "Igra Lapta",
   description: "Lapta rules",
   srcDir: './src',
-  outDir: './public',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
