@@ -28,7 +28,12 @@ export default defineConfig({
         text: 'Книги',
         link: '/books/',
         activeMatch: '/books/'
-      }
+      },
+      {
+        text: 'Периодика',
+        link: '/press/',
+        activeMatch: '/press/'
+      },
     ],
 
     sidebar: {
